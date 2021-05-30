@@ -1,0 +1,25 @@
+<div class="app-container">
+  <div class="header">
+    <div class="title">
+      {{ "Angular templates" | transloco }}
+    </div>
+    <div class="home-link">
+      <a routerLink="/"> Home/Content </a>
+    </div>
+    <div class="span"></div>
+    <div class="lang">
+      <button mat-button [matMenuTriggerFor]="menu">
+        {{ currentLanguage }}
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="setLang(LanguagesTemplate.en)">
+          English
+        </button>
+        <button mat-menu-item (click)="setLang(LanguagesTemplate.ru)">
+          Russian
+        </button>
+      </mat-menu>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

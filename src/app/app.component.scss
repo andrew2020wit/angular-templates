@@ -1,0 +1,21 @@
+.app-container {
+  width: 1200px;
+  margin: auto;
+  background-color: antiquewhite;
+}
+
+.header {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: aquamarine;
+  padding: 0.3rem;
+}
+
+.span {
+  flex: 1;
+}
+
+.title {
+  margin-right: 1rem;
+}

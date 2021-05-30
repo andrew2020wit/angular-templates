@@ -1,0 +1,7 @@
+<app-custom-date-picker
+  [(date)]="date"
+  (dateChange)="test($event)"
+  label="{{ 'Choose date' | transloco }}"
+></app-custom-date-picker>
+
+{{ date }}
