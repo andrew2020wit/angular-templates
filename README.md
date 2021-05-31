@@ -12,3 +12,5 @@ angular datepicker, MatNativeDateModule, MatIconModule
 ## title service
 
 router.events.subscribe + angular title-service
+
+## ClickStopPropagationDirective

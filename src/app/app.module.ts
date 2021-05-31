@@ -19,6 +19,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco/transloco-root.module';
 import { AppTitleService } from './services/app-title.service';
+import { ClickStopPropagationDirective } from './directives/click-stop-propagation.directive';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { AppTitleService } from './services/app-title.service';
     CustomDatePickerPageComponent,
     CustomDatePickerComponent,
     DatePickerHeaderComponent,
+    ClickStopPropagationDirective,
   ],
   imports: [
     MatNativeDateModule,
